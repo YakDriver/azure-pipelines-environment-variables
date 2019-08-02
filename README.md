@@ -103,7 +103,7 @@ Azure DevOps Pipelines CI available environment variables
 | NPM_CONFIG_PREFIX | C:\npm\prefix |   |
 | NUMBER_OF_PROCESSORS | 2 |   |
 | OS | Windows_NT |   |
-| PATH | [Example](abc) |   |
+| PATH | [Example](path_example.md) |   |
 | PATHEXT | .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY |   |
 | PHPROOT | c:\tools\php |   |
 | PIPELINE_WORKSPACE | d:\a\1 |   |
