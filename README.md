@@ -116,7 +116,7 @@ Azure DevOps Pipelines CI available environment variables
 | PROGRAMFILES | C:\Program Files |   |
 | ProgramFiles(x86) | C:\Program Files (x86) |   |
 | ProgramW6432 | C:\Program Files |   |
-| PSModulePath | %ProgramFiles%\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Microsoft SQL Server\130\Tools\PowerShell\Modules\ |   |
+| PSModulePath | %ProgramFiles%\WindowsPowerShell\Modules; C:\windows\system32\WindowsPowerShell\v1.0\Modules; C:\Program Files\Microsoft SQL Server\130\Tools\PowerShell\Modules\ | (Spaces added for wrapping)  |
 | PUBLIC | C:\Users\Public |   |
 | PWD | /d/a/1/s |   |
 | PYTHON_HOME | C:/hostedtoolcache/windows\Python\3.6.8\x64 |   |
