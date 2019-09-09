@@ -21,7 +21,7 @@ jobs:
   steps:
   - script: set
     displayName: cmd environment variables
-  - bash: env
+  - bash: env | sort
     displayName: bash environment variables
   - powershell: gci env:* | sort-object name
     displayName: powershell environment variables
