@@ -1,5 +1,5 @@
 # azure-pipelines-environment-variables
-Azure DevOps Pipelines CI available environment variables
+Azure DevOps Pipelines CI Windows available environment variables
 
 
 | Variable | Example | Description |

@@ -1,0 +1,27 @@
+name: $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.rr)
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+    - refs/tags/*
+pr:
+  branches:
+    include:
+    - master
+
+jobs:
+- job: env
+  displayName: environment variables
+  pool:
+    vmImage: 'vs2017-win2016'
+  variables:
+    user_defined_variable: "the value of this variable"
+  steps:
+  - script: set
+    displayName: cmd environment variables
+  - bash: env
+    displayName: bash environment variables
+  - powershell: gci env:* | sort-object name
+    displayName: powershell environment variables
