@@ -27,6 +27,6 @@ jobs:
     displayName: powershell environment variables
 - job: tagFiguring
   displayName: what is the deal with tags
-  condition: eq(variables['build.sourceBranch'], 'refs/tags/v0.1.3')
+  condition: startsWith(variables['build.sourceBranch'], 'refs/tags/')
   steps:
   - script: echo "Here we are"
